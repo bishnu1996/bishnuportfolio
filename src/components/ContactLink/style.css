@@ -1,0 +1,18 @@
+.app-contactlink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app-contactlink .contact-icon{
+    padding: 0px 0px 10px;    
+}
+.app-contactlink{
+    padding: 20px 0px;
+}
+.app-contactlink .mediam{
+    font-size: 18px;
+}
+.app-contactlink .mediamlink{
+    font-weight: 600;
+}

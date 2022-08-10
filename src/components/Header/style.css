@@ -1,0 +1,20 @@
+.app-header .menu .menu-image{
+    background-color:#ED292A;
+    color: white;
+    height: 25px;
+    width: 25px;
+}
+.app-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+.app-header .menu{
+    color: #ED292A;
+   
+} 
+.menu-material{
+    font-size: 35px;
+}

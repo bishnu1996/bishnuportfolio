@@ -1,0 +1,58 @@
+.poster-image-div .poster-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-color: #fff;
+}
+.poster-text .poster-button {
+  padding: 10px 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.poster-button .button-content{
+    margin-left: 5px;
+}
+
+
+.poster-text .text-animate-div{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    background-color:white;
+}
+ .text-animate-div .animate-text{
+    color: black;
+    position: relative;
+    text-transform: capitalize;
+}
+.text-animate-div .animate-text::before{
+    content: "Freelancer";
+    width: 100%;
+    color: white;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: 2px solid;
+    animation: slide 2s linear infinite;
+    -webkit-animation: slide 2s linear infinite;
+    overflow: hidden;
+}
+@keyframes slide {
+    100%{width: 0%;display: none;}
+    50%{width: 100%; display: none;}
+    100%{width: 0%; display: none;}
+    0%{width: 0%; display: none;}
+}
+.app-poster{
+    padding: 10px 15px;
+}
+.poster-text .poster-button{
+    background-image: linear-gradient(to right, #FFDB28,#ce1474);
+    color: #fff;
+    cursor: pointer;
+}
+.emma-text span{
+    color: #ce1474;
+}
